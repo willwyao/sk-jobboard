@@ -1,0 +1,19 @@
+.job-details{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.job-details article{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+}
